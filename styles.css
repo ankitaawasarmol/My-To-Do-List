@@ -117,6 +117,11 @@ ul {
 
 
 @media only screen and (max-width: 600px){
+
+    *{
+        font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+    }
    
 .container{
   width: 150px;
@@ -124,9 +129,10 @@ ul {
     background: #0c0b0bc7;
     position: absolute;
     top: 10%;
-    left: 5%;
+    left: 10%;
+    right: 10%;
     border-radius: 10px;
-    position: center;
+    position: absolute;
 }
 .container h1{
     color: antiquewhite;
@@ -135,7 +141,7 @@ ul {
 }
 .container p{
     color: antiquewhite;
-    font-size: 15px;
+    font-size: 18px;
 }
 #big_wrapper{
     text-align: center;
